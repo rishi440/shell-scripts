@@ -1,5 +1,7 @@
 #rremesh
+#returns directory/file permissions in numerical form
 #Last update 05/01/18
+
 
 if [[ $# > 2 ]] ; then
     echo 'Error too many arguments, if you are passing multiple arguments like -a -h, please use -ah (combine them instead)'
